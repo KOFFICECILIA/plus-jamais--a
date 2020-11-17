@@ -932,6 +932,17 @@ blockquote {
     text-align: center;
 }
 
+/* souscrire */
+
+#souscrire{
+	padding: 101px 0;
+}
+
+#souscrire .sousc-illustr{
+	max-height: 250px;
+	box-shadow: -40px 40px 52px -18px rgba(0, 0, 0, 0.349);
+}
+
 /* 14-Form */
 
 .form .form-group {
@@ -1070,6 +1081,15 @@ footer .nav li a:after {
 
 footer .nav li:last-child a:after {
 	content: "";
+}
+
+.weenovLink{
+	transition: all .3s;
+}
+
+.weenovLink:hover{
+	color: #ff974f !important;
+	cursor: pointer;
 }
 
 
